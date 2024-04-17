@@ -9,15 +9,18 @@
   </head>
   <body>
     <!-- BEGIN CODE HERE -->
-      <header>
-        <img src="logo.png" alt="Λογότυπο" class="logo"> 
-        <nav>
-            <ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-            </ul>
-        </nav>
+ <header> 
+        <img src="logo.png" alt="Λογότυπο" class="logo">
+        <div class="container">
+            <header class="d-flex justify-content-center py-1">
+            <ul class="nav nav-pills nav-right">
+    <li class="nav-item"><a href="homepage.html" class="nav-link active">Home</a></li>
+    <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+</ul>
+            </header>
+            </div>
     </header>
+
     
     <div class="container mt-5" style="max-width: 1200px;">
       <div class="row align-items-center mb-4">
@@ -27,7 +30,8 @@
         <div class="col-auto">
           <form class="d-flex" role="search">
             <input class="form-control form-control-sm me-2" type="search" aria-label="Search" style="width: 200px;">
-            <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+<button class="btn btn-sm btn-primary" type="submit">Search</button>
+
           </form>
         </div>
       </div>
@@ -62,8 +66,16 @@
         </div>
       </div>
     </div>
+	
+	<footer class="container my-5">
+        <p class="text-center text-black bg-light border-top pt-1 mt-1">Όνομα: [Το όνομά σας]΄ΑΕΜ: [Το ΑΕΜ σας]</p>
+        </footer>    
+
     <!-- END CODE HERE -->
     <script src="products.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+  
+  
   </body>
 </html>
