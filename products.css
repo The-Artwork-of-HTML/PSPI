@@ -20,27 +20,29 @@ header {
   margin-left:150px;  /* Ρύθμιση πλάτους */
  
 }
-nav ul {
+.nav {
+  margin-left: 650px; /* Απόσταση από το δεξί άκρο του header */
+}
+
+nav.nav-right {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-right:160px;
 }
 
-nav ul li {
+nav.nav-right li {
   display: inline;
-  margin-left: auto;
+  margin-left: 20px;
 }
 
-nav ul li a {
+nav.nav-right li a {
   text-decoration: none;
   color: black;
 }
 
-nav ul li a:hover {
+nav.nav-right li a:hover {
   color: blue;
 }
-
 .container {
   /* Προσαρμόστε τα margins και το padding όπως θέλετε */
   margin-top: 20px; /* Για παράδειγμα */
