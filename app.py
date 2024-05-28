@@ -1,4 +1,4 @@
-Enter fifrom flask import Flask, jsonify, request, make_response,send_file, redirect, url_for
+from flask import Flask, jsonify, request, make_response,send_file, redirect, url_for
 from flask_pymongo import PyMongo
 import json
 import numpy as np
@@ -188,4 +188,3 @@ def crawler():
 
 if __name__ == '__main__':
     app.run(debug=True)
-le contents here
